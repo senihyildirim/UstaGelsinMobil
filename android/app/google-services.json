@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "160470697150",
+    "project_id": "ustagelsin",
+    "storage_bucket": "ustagelsin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160470697150:android:7e8bfd4772324017954aef",
+        "android_client_info": {
+          "package_name": "com.ustagelsin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160470697150-gpou0hhqpgheuk3m9b21hknl3rfhhdkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ustagelsin",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "160470697150-alpfbb5rp8kl3ujtj2dp1lspdaieuios.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0mh-7F3_r_gSw00vTRQmFqhdySd9TuBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160470697150-alpfbb5rp8kl3ujtj2dp1lspdaieuios.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
