@@ -66,7 +66,7 @@ const MarketPage = ({route}) => {
     return (
         <View style={styles.container}>
             <Header/>
-            <Image source={require("../assets/images/plumbing.jpeg")} style={styles.headerImageStyle} />
+            <Image source={{uri:market.image}} style={styles.headerImageStyle} />
             <Text style={styles.headerText}>{market.title}</Text>
             <View>
                 <View style={styles.priceHeader}>

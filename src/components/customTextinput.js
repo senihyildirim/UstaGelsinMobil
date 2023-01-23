@@ -8,7 +8,9 @@ const CustomTextinput = (props) => {
             <View>
                 <Text>{props.title}</Text>
             </View>
-            <TextInput style={styles.ınputBorder} placeholder={props.placeholder} value={props.value} onChangeText={props.onChangeText} />
+            <TextInput style={styles.ınputBorder} placeholder={props.placeholder} value={props.value} onChangeText={props.onChangeText} 
+             secureTextEntry={props.password}
+            />
         </View>
     );
     }

@@ -34,6 +34,7 @@ const AdressCard = () => {
 
     useEffect(() => {
         getAdress();
+        adressList 
     }, []);
 
 
@@ -61,7 +62,7 @@ const AdressCard = () => {
                         style={[styles.button, styles.buttonClose]}
                         onPress={() => setModalVisible(!modalVisible)}
                         >
-                        <Text style={styles.textStyle}>Hide Modal</Text>
+                        <Text style={styles.textStyle}>Adres Seçiniz</Text>
                         </Pressable>
                         <View style={styles.listStyle} >
                         <FlatList

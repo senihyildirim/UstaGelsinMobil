@@ -39,7 +39,6 @@ const LoginComponent = () => {
             if (error.code === 'auth/invalid-email') {
                 console.log('That email address is invalid!');
             }
-
             console.error(error);
         });
     }
@@ -57,6 +56,7 @@ const LoginComponent = () => {
             placeholder = "Şifre"
             value = {password}
             onChangeText = {(text) => setPassword(text)}
+            password={true}
             />
         <View style={styles.buttonContainer}>
         <CustomButton 

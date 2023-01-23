@@ -21,7 +21,7 @@ const BottomMenu = (props) => {
                     }}
                     />
                 <ButtomIcon
-                    name="pluscircleo"
+                    name="shoppingcart"
                     selected={selected === "PastOrders"}
                     onPress={() => {
                         setSelected("PastOrders");

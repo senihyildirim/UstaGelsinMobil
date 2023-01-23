@@ -88,10 +88,7 @@ const SignupComponent = () => {
                 placeholder="Şifre"
                 value = {user.password}
                 onChangeText = {(text) => setUser({...user, password: text}) }
-            />
-            <CustomTextinput
-                title="Şfre"
-                placeholder="Şifre Tekrar"
+                password={true}
             />
             <CustomButton
                 onPress={() => 
